@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:attribute name="Message1" type="String" default="Test Value1"/>
+    <aura:attribute name="Message2" type="String" default="Test Value2"/>
+    <td >
+        <tr>Hello : {!v.Message1}</tr>
+        <tr><lightning:button label="ClieckMe" onclick="{!c.hancleClick1}"/></tr>
+    </td>
+    
+    <hr></hr>
+    
+    <div>
+        Hello : {!v.Message2}
+        <br/><br/>
+        <lightning:button label="ClieckMe" onclick="{!c.hancleClick2}"/>
+    </div>
+    
+</aura:component>
